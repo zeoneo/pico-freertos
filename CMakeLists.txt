@@ -61,6 +61,9 @@ ENDIF()
 
 target_compile_definitions(mypico PUBLIC DEBUG N_SD_CARDS=${N_SD_CARDS})
 
+pico_enable_stdio_uart(mypico 0)
+pico_enable_stdio_usb(mypico 1)
+
 pico_add_extra_outputs(mypico)
 
 # Hardware-specific examples in subdirectories:

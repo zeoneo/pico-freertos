@@ -21,6 +21,7 @@ void runOnCore0()
     while (1)
     {
         makeBlink(3, 500);
+        printf("runOnCore0 \n");
         vTaskDelay(3000);
     }
 }
@@ -30,13 +31,14 @@ void runOnCore1()
     while (1)
     {
         makeBlink(10, 1000);
+        printf("runOnCore1 \n");
         vTaskDelay(5000);
     }
 }
 
 int main()
 {
-    stdio_init_all();
+    stdio_usb_init();
     printf("Start LED blink\n");
     const uint LED_PIN = PICO_DEFAULT_LED_PIN;
     gpio_init(LED_PIN);
