@@ -1,0 +1,105 @@
+[  1%] Creating directories for 'ELF2UF2Build'
+[  2%] No download step for 'ELF2UF2Build'
+[  3%] No update step for 'ELF2UF2Build'
+[  4%] No patch step for 'ELF2UF2Build'
+[  5%] Performing configure step for 'ELF2UF2Build'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/prakashborkar/development/projects/mypico/build/elf2uf2
+[  6%] Performing build step for 'ELF2UF2Build'
+Consolidate compiler generated dependencies of target elf2uf2
+[100%] Built target elf2uf2
+[  7%] No install step for 'ELF2UF2Build'
+[  8%] Completed 'ELF2UF2Build'
+[  8%] Built target ELF2UF2Build
+[  9%] Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+[ 10%] Linking ASM executable bs2_default.elf
+[ 10%] Built target bs2_default
+[ 11%] Generating bs2_default.bin
+[ 12%] Generating bs2_default_padded_checksummed.S
+[ 12%] Built target bs2_default_padded_checksummed_asm
+[ 13%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/event_groups.c.obj
+[ 14%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/list.c.obj
+[ 15%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/queue.c.obj
+[ 16%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[ 17%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/tasks.c.obj
+[ 18%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/timers.c.obj
+[ 19%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+[ 20%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+[ 21%] Building C object CMakeFiles/mypico.dir/main.c.obj
+[ 22%] Building C object CMakeFiles/mypico.dir/free_rtos_hooks.c.obj
+[ 23%] Building C object CMakeFiles/mypico.dir/FreeRTOS-Kernel/croutine.c.obj
+[ 25%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+[ 26%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+[ 27%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+[ 28%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+[ 29%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+[ 30%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+[ 31%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+[ 32%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_sync/sem.c.obj
+[ 33%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_sync/lock_core.c.obj
+[ 34%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_time/time.c.obj
+[ 35%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+[ 36%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+[ 37%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_util/datetime.c.obj
+[ 38%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_util/pheap.c.obj
+[ 39%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_util/queue.c.obj
+[ 40%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_sync/mutex.c.obj
+[ 41%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/common/pico_sync/critical_section.c.obj
+[ 42%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+[ 43%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+[ 44%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+[ 45%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+[ 46%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+[ 47%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+[ 48%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+[ 50%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+[ 51%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+[ 52%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+[ 53%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+[ 54%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+[ 55%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+[ 56%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+[ 57%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+[ 58%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+[ 59%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+[ 60%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+[ 61%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+[ 62%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+[ 63%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+[ 64%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+[ 65%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+[ 66%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+[ 67%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+[ 68%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+[ 69%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+[ 70%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+[ 71%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+[ 72%] Building ASM object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+[ 73%] Building CXX object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+[ 75%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+[ 76%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+[ 77%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+[ 78%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+[ 79%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+[ 80%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+[ 81%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+[ 82%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+[ 83%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+[ 84%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+[ 85%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+[ 86%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+[ 87%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+[ 88%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+[ 89%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+[ 90%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+[ 91%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+[ 92%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+[ 93%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+[ 94%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/tusb.c.obj
+[ 95%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+[ 96%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+[ 97%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+[ 98%] Building C object CMakeFiles/mypico.dir/Users/prakashborkar/development/tools/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+[100%] Linking CXX executable mypico.elf
+[100%] Built target mypico
