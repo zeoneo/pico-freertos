@@ -20,9 +20,9 @@ void runOnCore0()
 {
     while (1)
     {
-        makeBlink(3, 500);
-        printf("runOnCore0 \n");
-        vTaskDelay(3000);
+        // makeBlink(3, 500);
+        printf("runOnCore0 : Core: %d \n", get_core_num());
+        vTaskDelay(1000);
     }
 }
 
@@ -30,9 +30,9 @@ void runOnCore1()
 {
     while (1)
     {
-        makeBlink(10, 1000);
-        printf("runOnCore1 \n");
-        vTaskDelay(5000);
+        // makeBlink(10, 1000);
+        printf("runOnCore1 : Core: %d \n", get_core_num());
+        vTaskDelay(1000);
     }
 }
 
